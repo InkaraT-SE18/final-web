@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:white;
+    background-color: black;
+}
+.navbar-custom {
+      background-color: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(25px);
+    }
+nav {
+    text-align: left;
+    padding: 20px;
+    font-family: Inter,sans-serif;
+}
+h1{
+    font-family: Mak,cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+h2{
+    font-family: Inter, sans-serif;
+    text-align: left;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+.img1{
+    width:560px;
+    height: 700px;
+    object-fit: cover;
+
+}
+.btn{
+    color: #fff;
+}
+
+.btn a{
+   text-decoration: none;
+   color: white;
+}

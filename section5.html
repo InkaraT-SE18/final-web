@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Listl</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="section5.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+              aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="section1.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="section2.html">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="section3.html">Кейсы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="section4.html">Личный кабинет</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="section5.html">Задачи</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="section6.html">Команда</a>
+          </li> <li class="nav-item">
+            <a class="nav-link" href="section7.html">Заказ</a>
+          </li>
+        </ul>
+       </div>
+  </nav>
+     <div class="container">
+        <h1>Задачи</h1>
+
+        <input type="text" id="task-input" class="task-input" placeholder="Введите новую задачу">
+        <button id="add-task-button" class="add-task-button">Добавить задачу</button>
+
+        <ul id="task-list">
+            <!-- Задачи будут добавляться сюда -->
+        </ul>
+
+        <div id="trash" class="trash">
+            <span>🗑️</span> Перетащите сюда, чтобы удалить
+        </div>
+    </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.10.0/interact.min.js"></script>
+    <script src="section5.js">
+    </script>
+</body>
+</html>

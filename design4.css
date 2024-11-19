@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter,sans-serif;
+    color: #dddddd;
+}
+
+
+.block4{
+     margin: 0;
+    background: url('images2/4фрейм.png');
+    background-size: cover;
+    height: 750px;
+    position: relative;
+}
+
+form{
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    position: absolute;
+    }
+
+input[type="text"], input[type="password"],button
+{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: white;
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+
+.error {
+            color: red;
+        }

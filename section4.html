@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>design</title>
+    <link rel="stylesheet" href="design4.css">
+</head>
+<body>
+
+<div class="block4">
+
+ <form id="myForm" onsubmit="return validateForm()">
+    <label for="name">Name (required):</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email (required):</label>
+    <input type="text" id="email" name="email"><br><br>
+
+    <label for="password">Password (required, at least 8 characters):</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="confirmPassword">Confirm Password (required):</label>
+    <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+
+    <button id="click" class="btn btn-online-light" type="submit">Submit</button>
+    <p id="errorMessages" class="error"></p>
+</form>
+    </div>
+<audio id="click-button" src="knopka.mp3"> </audio>
+<script src="section4.js">
+</script>
+</body>
+</html>
